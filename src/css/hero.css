@@ -1,0 +1,44 @@
+.hero {
+  background-image: url(/img/bg-1.jpg);
+  background-size: cover;
+  padding: 120px 0;
+}
+
+h1 {
+  font-family: var(--accent-font);
+  font-size: 95px;
+  color: var(--light-color);
+  margin-bottom: 20px;
+}
+
+.hero span {
+  color: var(--accent-color);
+}
+
+.hero-line-first {
+  background-color: var(--light-color);
+  height: 3px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.hero-txt-first {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--txt-color);
+  margin-bottom: 10px;
+}
+
+.hero-line-second {
+  background-color: var(--light-color);
+  height: 3px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.hero-txt-second {
+  font-size: 20px;
+  font-weight: 500;
+  width: 35%;
+  color: var(--txt-color);
+}
